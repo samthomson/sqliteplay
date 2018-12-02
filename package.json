@@ -2,9 +2,9 @@
   "name": "sqliteplay",
   "version": "1.0.0",
   "description": "testing out the capabilities of SQLite in a JS project.",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node js/start.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/samthomson/sqliteplay/issues"
   },
-  "homepage": "https://github.com/samthomson/sqliteplay#readme"
+  "homepage": "https://github.com/samthomson/sqliteplay#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.4"
+  }
 }
